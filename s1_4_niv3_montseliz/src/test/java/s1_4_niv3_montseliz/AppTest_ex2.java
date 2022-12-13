@@ -12,7 +12,7 @@ public class AppTest_ex2 {
 	@Test
 	public void referenceIsNotTheSame() {
 	    	
-	    assertThat(app1).isEqualTo(app2); 
+	    assertThat(app1).isNotEqualTo(app2); 
 	       
 	}
 	

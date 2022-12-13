@@ -9,7 +9,7 @@ class DniCalculation_Test {
 	
 	@ParameterizedTest
 	@CsvSource ({"43566370, T", "38072437, P", "29533288, T", "72198143, Q", "62927996, L", "66315140, E", 
-		"11556362, H", "22281164, G", "64968006, N", "68427636, M"}) 
+		"88077210, K", "99178779, L", "97818022, B", "11850111, M"}) 
 	public void dniCorrect (int dniNumber, char word) {
 	    char answer = DniCalculation.dniMethod(dniNumber); 
 	    assertEquals (word, answer); 
